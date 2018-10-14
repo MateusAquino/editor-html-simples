@@ -121,9 +121,6 @@
   <data name="webAtualiza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\webAtualiza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconWeb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\iconWeb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="iconUndo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\iconUndo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,7 +133,7 @@
   <data name="webRedo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\webRedo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconWeb1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="iconWeb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\iconWeb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="webUndo" type="System.Resources.ResXFileRef, System.Windows.Forms">

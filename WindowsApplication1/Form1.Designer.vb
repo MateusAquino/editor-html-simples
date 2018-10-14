@@ -470,7 +470,7 @@ Partial Class Form1
         Me.navPadrao.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.navPadrao.BackColor = System.Drawing.Color.Transparent
         Me.navPadrao.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.navPadrao.Image = Global.WindowsApplication1.My.Resources.Resources.iconWeb1
+        Me.navPadrao.Image = Global.WindowsApplication1.My.Resources.Resources.iconWeb
         Me.navPadrao.Location = New System.Drawing.Point(909, 497)
         Me.navPadrao.Name = "navPadrao"
         Me.navPadrao.Size = New System.Drawing.Size(22, 22)

@@ -35,10 +35,6 @@ WindowsApplication1
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:WindowsApplication1.My.Resources.Resources.iconWeb1">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.webAtualiza">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

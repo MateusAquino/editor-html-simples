@@ -1,5 +1,6 @@
 ﻿Imports System.Text.RegularExpressions
 Imports System.IO
+Imports System.Text
 
 Public Class Form1
 
@@ -225,12 +226,12 @@ Public Class Form1
         If arquivos.Items.Item(TabControl1.SelectedIndex) = "" Or como Then
             If SaveFileDialog1.ShowDialog() = DialogResult.OK Then
                 Dim arquivo As String = SaveFileDialog1.FileName
-                File.WriteAllText(arquivo, codigo.Text)
+                File.WriteAllText(arquivo, codigo.Text, Encoding.UTF8)
                 TabControl1.SelectedTab.Text = nome(arquivo)
                 arquivos.Items.Item(TabControl1.SelectedIndex) = arquivo
             End If
         ElseIf TabControl1.SelectedTab.Text.Contains("*") Then
-            File.WriteAllText(arquivos.Items.Item(TabControl1.SelectedIndex), codigo.Text)
+            File.WriteAllText(arquivos.Items.Item(TabControl1.SelectedIndex), codigo.Text, Encoding.UTF8)
             TabControl1.SelectedTab.Text = nome(arquivos.Items.Item(TabControl1.SelectedIndex))
         End If
     End Sub
