@@ -372,7 +372,7 @@ Public Class Form1
     Private Sub CorDeFundoToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CorDeFundoToolStripMenuItem.Click
         If ColorDialog1.ShowDialog() = DialogResult.OK Then
             Dim color = ColorDialog1.Color
-            inserir("<span style=""background-color: " + String.Format("#{0:X2}{1:X2}{2:X2}", Color.R, Color.G, Color.B) + ";"">", "</span>")
+    substituir("style=""background-color: " + String.Format("#{0:X2}{1:X2}{2:X2}", Color.R, Color.G, Color.B) + ";""")
         End If
     End Sub
 End Class
