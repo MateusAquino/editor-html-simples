@@ -1,5 +1,5 @@
 # Editor-HTML-Simples
-Editor simples de HTML construido em VisualBasic (Projeto escolar)
+Editor simples de HTML construido em VisualBasic (Projeto escolar)  
 WindowsApplication1/Form1.vb
 
 ## Funcionalidades
