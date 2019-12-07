@@ -2,7 +2,10 @@
 Editor simples de HTML construido em VisualBasic (Projeto escolar)  
 WindowsApplication1/Form1.vb
 
-## Funcionalidades
+## 1. Download
+Todos os downloads podem ser encontrados na [seção de releases](https://github.com/MateusAquino/editor-html-simples/releases).
+
+## 2. Funcionalidades
  * Colorização (personalizável):
    - Tags
    - Strings
@@ -12,7 +15,7 @@ WindowsApplication1/Form1.vb
  * Inserção de código HTML - `<b>`, `<i>`, `<img>`, `<a>`, `...` <sup>html</sup>
  * Inserção de código CSS (em spans) - `color`, `font`, `...` <sup>css</sup>
   
-## Menus
+## 3. Menus
  * Arquivo
    - Novo *Ctrl+N* 
    - Abrir *Ctrl+O*
@@ -38,16 +41,24 @@ WindowsApplication1/Form1.vb
  * Preferências
    - Paleta de Cores
    
-## Botões
+## 4. Botões
  * Fechar guia
  * Undo (Desfazer) *Ctrl+Z*
  * Redo (Refazer) *Ctrl+Y*
  * Abrir no Navegador Padrão
  * Pré-visualizar
    
-## Interface
-### Janela Principal
+## 5. Interface
+### 5.1 Janela Principal
 ![Janela Principal](Imagens/Principal.png)
 
-### Preview e Paleta
+### 5.2 Preview e Paleta
 ![Web Preview e Paleta](Imagens/WebEPaleta.png)
+
+
+## 6. Informação
+### 6.1 Licença
+Este projeto esta licenciado sob os termos da [MIT License](https://github.com/MateusAquino/editor-html-simples/blob/master/LICENSE). Aproveite!
+
+### 6.2 Author
+Mateus de Aquino: [LinkedIn](https://www.linkedin.com/in/mateus-de-aquino/)
